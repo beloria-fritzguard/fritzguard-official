@@ -10,6 +10,7 @@
 <meta property="og:image" content="https://dbucha-organization.github.io/fritzguard-v3/images/fritzguard-url-image.png">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="style.css">
+<script src="translations.js" defer></script>
 <style>
   /* ---- Menu-page-specific styles (self-contained, won't affect the rest of the site) ---- */
   .menu-page {
@@ -117,15 +118,15 @@
 
 <!-- ============== NAVIGATION (matches index.html) ============== -->
 <nav>
-  <a href="index.html">Fritzguard The Order Of Taste</a>
-  <a href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE">Order A Table</a>
-  <a href="index.html">home</a>
-  <a href="index.html#our-story">our story</a>
-  <a href="menu.html">Menu</a>
-  <a href="index.html#location">Location</a>
-  <a href="index.html#jobs">Jobs</a>
-  <a href="index.html#collaboration">COLLABORATION</a>
-  <a href="index.html#location">Brussels</a>
+  <a href="index.html" data-i18n="nav.brand">Fritzguard The Order Of Taste</a>
+  <a href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE" data-i18n="nav.order">Order A Table</a>
+  <a href="index.html" data-i18n="nav.home">home</a>
+  <a href="index.html#our-story" data-i18n="footer.story">our story</a>
+  <a href="menu.html" data-i18n="nav.menu">Menu</a>
+  <a href="index.html#location" data-i18n="footer.location">Location</a>
+  <a href="index.html#jobs" data-i18n="nav.jobs">Jobs</a>
+  <a href="index.html#collaboration" data-i18n="nav.contact">COLLABORATION</a>
+  <a href="index.html#location" data-i18n="location.city">Brussels</a>
   <a href="https://www.instagram.com/fritzguard.brussels">instagram</a>
   <a href="https://www.facebook.com/p/Fritzguard-Brussels-100090719001550/">facebook</a>
   <a href="https://www.tiktok.com/@fritzguard.brussels">tiktok</a>
@@ -137,140 +138,140 @@
 
     <div class="flag-bar"><span class="black"></span><span class="yellow"></span><span class="red"></span></div>
     <p class="brand-title">FRITZGUARD</p>
-    <p class="brand-tagline">THE ORDER OF TASTE</p>
+    <p class="brand-tagline" data-i18n="nav.logo_sub_title">THE ORDER OF TASTE</p>
 
     <!-- LOADED FRIES -->
     <section class="category" id="loaded-fries">
-      <h2 class="category-title">Loaded Fries</h2>
-      <p class="category-note">Our fries are freshly cut from local potatoes and double cooked in 100% beef fat, the true Belgian way.</p>
+      <h2 class="category-title" data-i18n="menuPage.fries">Loaded Fries</h2>
+      <p class="category-note" data-i18n="menuPage.friesNote">Our fries are freshly cut from local potatoes and double cooked in 100% beef fat, the true Belgian way.</p>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Alba Fries with Truffle Sauce 🌱</span><span class="dish-price">10€</span></div>
-        <p class="dish-desc-en">Parmesan, fleur de sel, white truffle oil, curly parsley &amp; seaweed caviar with truffle flavor.</p>
-        <p class="dish-desc-fr">Parmesan, fleur de sel, huile de truffe blanche, persil frisé &amp; caviar d'algues goût truffe.</p>
+        <p class="dish-desc-en" lang="en">Parmesan, fleur de sel, white truffle oil, curly parsley &amp; seaweed caviar with truffle flavor.</p>
+        <p class="dish-desc-fr" lang="fr">Parmesan, fleur de sel, huile de truffe blanche, persil frisé &amp; caviar d'algues goût truffe.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Cheddar &amp; Bacon</span><span class="dish-price">13€</span></div>
-        <p class="dish-desc-en">Melted Cheddar, smoked bacon, spring onions &amp; sumac.</p>
-        <p class="dish-desc-fr">Cheddar fondu, bacon fumé, jeunes oignons &amp; sumac.</p>
+        <p class="dish-desc-en" lang="en">Melted Cheddar, smoked bacon, spring onions &amp; sumac.</p>
+        <p class="dish-desc-fr" lang="fr">Cheddar fondu, bacon fumé, jeunes oignons &amp; sumac.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Crispy Chicken</span><span class="dish-price">15€</span></div>
-        <p class="dish-desc-en">Melted cheddar, chicken tenders, barbecue sauce, crispy onions &amp; chives.</p>
-        <p class="dish-desc-fr">Cheddar fondu, tenders de poulet, sauce barbecue, oignons frits &amp; ciboulette.</p>
+        <p class="dish-desc-en" lang="en">Melted cheddar, chicken tenders, barbecue sauce, crispy onions &amp; chives.</p>
+        <p class="dish-desc-fr" lang="fr">Cheddar fondu, tenders de poulet, sauce barbecue, oignons frits &amp; ciboulette.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Vol au Vent</span><span class="dish-price">15€</span></div>
-        <p class="dish-desc-en">Creamy sauce, chicken, mushrooms, puff pastry &amp; curly parsley.</p>
-        <p class="dish-desc-fr">Sauce crémeuse, poulet, champignons, feuilleté &amp; persil frisé.</p>
+        <p class="dish-desc-en" lang="en">Creamy sauce, chicken, mushrooms, puff pastry &amp; curly parsley.</p>
+        <p class="dish-desc-fr" lang="fr">Sauce crémeuse, poulet, champignons, feuilleté &amp; persil frisé.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Stewed Beef</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Slow-cooked beef, coleslaw &amp; chives.</p>
-        <p class="dish-desc-fr">Bœuf mijoté, salade de chou &amp; ciboulette.</p>
+        <p class="dish-desc-en" lang="en">Slow-cooked beef, coleslaw &amp; chives.</p>
+        <p class="dish-desc-fr" lang="fr">Bœuf mijoté, salade de chou &amp; ciboulette.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Octopus</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Grilled octopus, secret sauce, pickled radishes, raspberries &amp; seaweed caviar with wasabi.</p>
-        <p class="dish-desc-fr">Poulpe grillé, sauce secrète, radis marinés, framboises &amp; caviar d'algues au wasabi.</p>
+        <p class="dish-desc-en" lang="en">Grilled octopus, secret sauce, pickled radishes, raspberries &amp; seaweed caviar with wasabi.</p>
+        <p class="dish-desc-fr" lang="fr">Poulpe grillé, sauce secrète, radis marinés, framboises &amp; caviar d'algues au wasabi.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Mussels with Garlic &amp; Cream</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Fresh mussels, cream and garlic sauce &amp; spring onions.</p>
-        <p class="dish-desc-fr">Moules fraîches, sauce crème et ail &amp; jeunes oignons.</p>
+        <p class="dish-desc-en" lang="en">Fresh mussels, cream and garlic sauce &amp; spring onions.</p>
+        <p class="dish-desc-fr" lang="fr">Moules fraîches, sauce crème et ail &amp; jeunes oignons.</p>
       </div>
     </section>
 
     <!-- BURGERS -->
     <section class="category" id="burgers">
-      <h2 class="category-title">Burgers 🐄 or 🌱</h2>
-      <p class="category-note">Crafted with premium Angus beef or vegetarian cauliflower falafel.</p>
+      <h2 class="category-title" data-i18n="menuPage.burgers">Burgers 🐄 or 🌱</h2>
+      <p class="category-note" data-i18n="menuPage.burgersNote">Crafted with premium Angus beef or vegetarian cauliflower falafel.</p>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">New York Classic</span><span class="dish-price">14€</span></div>
-        <p class="dish-desc-en">Trio of sauce (ketchup, mustard, mayo), cheddar, romaine lettuce, onions, pickles.</p>
-        <p class="dish-desc-fr">Trio de sauces (ketchup, moutarde, mayo), cheddar, laitue romaine, oignons, cornichons.</p>
+        <p class="dish-desc-en" lang="en">Trio of sauce (ketchup, mustard, mayo), cheddar, romaine lettuce, onions, pickles.</p>
+        <p class="dish-desc-fr" lang="fr">Trio de sauces (ketchup, moutarde, mayo), cheddar, laitue romaine, oignons, cornichons.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Indian Summer</span><span class="dish-price">14€</span></div>
-        <p class="dish-desc-en">Chipotle sauce, red onions, carrots, emmental, romaine lettuce.</p>
-        <p class="dish-desc-fr">Sauce chipotle, oignons rouges, carottes, emmental, laitue romaine.</p>
+        <p class="dish-desc-en" lang="en">Chipotle sauce, red onions, carrots, emmental, romaine lettuce.</p>
+        <p class="dish-desc-fr" lang="fr">Sauce chipotle, oignons rouges, carottes, emmental, laitue romaine.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Belgian Authentic</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Beef juice &amp; curry mayo, cheddar, beer-braised onions, treviso lettuce.</p>
-        <p class="dish-desc-fr">Mayonnaise au jus de bœuf et curry, cheddar, oignons braisés à la bière, salade trévise.</p>
+        <p class="dish-desc-en" lang="en">Beef juice &amp; curry mayo, cheddar, beer-braised onions, treviso lettuce.</p>
+        <p class="dish-desc-fr" lang="fr">Mayonnaise au jus de bœuf et curry, cheddar, oignons braisés à la bière, salade trévise.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Hot Spicy Mexican</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Chipotle sauce, Emmental cheese, romaine lettuce, jalapeños, Cayenne pepper.</p>
-        <p class="dish-desc-fr">Sauce chipotle, fromage emmental, laitue romaine, jalapeños, piment de Cayenne.</p>
+        <p class="dish-desc-en" lang="en">Chipotle sauce, Emmental cheese, romaine lettuce, jalapeños, Cayenne pepper.</p>
+        <p class="dish-desc-fr" lang="fr">Sauce chipotle, fromage emmental, laitue romaine, jalapeños, piment de Cayenne.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">The Truffle</span><span class="dish-price">16€</span></div>
-        <p class="dish-desc-en">Truffle mayo, emmental, garlic-fried Paris mushrooms, treviso lettuce.</p>
-        <p class="dish-desc-fr">Mayonnaise à la truffe, emmental, champignons de Paris sautés à l'ail, salade trévise.</p>
+        <p class="dish-desc-en" lang="en">Truffle mayo, emmental, garlic-fried Paris mushrooms, treviso lettuce.</p>
+        <p class="dish-desc-fr" lang="fr">Mayonnaise à la truffe, emmental, champignons de Paris sautés à l'ail, salade trévise.</p>
       </div>
     </section>
 
     <!-- SIDES -->
     <section class="category" id="sides">
-      <h2 class="category-title">Sides</h2>
+      <h2 class="category-title" data-i18n="menuPage.sides">Sides</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">True Belgian Fries</span><span class="dish-price">5,5€</span></div>
-        <p class="dish-desc-en">Freshly cut local potatoes, double cooked in 100% beef fat.</p>
-        <p class="dish-desc-fr">Pommes de terre locales coupées minute, double cuisson à la graisse de bœuf.</p>
+        <p class="dish-desc-en" lang="en">Freshly cut local potatoes, double cooked in 100% beef fat.</p>
+        <p class="dish-desc-fr" lang="fr">Pommes de terre locales coupées minute, double cuisson à la graisse de bœuf.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Homemade Sauces</span><span class="dish-price">1,5€</span></div>
-        <p class="dish-desc-en">Mayonnaise - Ketchup - Mustard - Barbecue - Chipotle - Truffle Mayo - Beef Juice Mayo - Secret sauce</p>
+        <p class="dish-desc-en" lang="en">Mayonnaise - Ketchup - Mustard - Barbecue - Chipotle - Truffle Mayo - Beef Juice Mayo - Secret sauce</p>
       </div>
     </section>
 
     <!-- TO SHARE -->
     <section class="category" id="to-share">
-      <h2 class="category-title">To Share</h2>
+      <h2 class="category-title" data-i18n="menuPage.share">To Share</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Homemade Chips</span><span class="dish-price">4€</span></div>
-        <p class="dish-desc-en">Thin and crispy potato chips, freshly made.</p>
-        <p class="dish-desc-fr">Chips fines et croustillantes, préparées maison.</p>
+        <p class="dish-desc-en" lang="en">Thin and crispy potato chips, freshly made.</p>
+        <p class="dish-desc-fr" lang="fr">Chips fines et croustillantes, préparées maison.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Fricadelle: Homemade</span><span class="dish-price">7€</span></div>
-        <p class="dish-desc-en">Homemade Belgian fricadelle with herbs &amp; crispy onions.</p>
-        <p class="dish-desc-fr">Fricadelle belge maison aux fines herbes &amp; oignons frits.</p>
+        <p class="dish-desc-en" lang="en">Homemade Belgian fricadelle with herbs &amp; crispy onions.</p>
+        <p class="dish-desc-fr" lang="fr">Fricadelle belge maison aux fines herbes &amp; oignons frits.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Special Fricadelle</span><span class="dish-price">8€</span></div>
-        <p class="dish-desc-en">Mayo, ketchup, herbs &amp; crispy onions.</p>
-        <p class="dish-desc-fr">Mayo, ketchup, fines herbes &amp; oignons frits.</p>
+        <p class="dish-desc-en" lang="en">Mayo, ketchup, herbs &amp; crispy onions.</p>
+        <p class="dish-desc-fr" lang="fr">Mayo, ketchup, fines herbes &amp; oignons frits.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Spicy Fricadelle</span><span class="dish-price">8€</span></div>
-        <p class="dish-desc-en">Chipotle sauce, jalapeños, herbs &amp; crispy onions.</p>
-        <p class="dish-desc-fr">Sauce chipotle, jalapeños &amp; oignons frits.</p>
+        <p class="dish-desc-en" lang="en">Chipotle sauce, jalapeños, herbs &amp; crispy onions.</p>
+        <p class="dish-desc-fr" lang="fr">Sauce chipotle, jalapeños &amp; oignons frits.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Falafel 🌱</span><span class="dish-price">9,5€</span></div>
-        <p class="dish-desc-en">Crispy cauliflower chickpea balls.</p>
-        <p class="dish-desc-fr">Boulettes croustillantes de chou-fleur et pois chiches.</p>
+        <p class="dish-desc-en" lang="en">Crispy cauliflower chickpea balls.</p>
+        <p class="dish-desc-fr" lang="fr">Boulettes croustillantes de chou-fleur et pois chiches.</p>
       </div>
 
       <div class="dish">
@@ -283,118 +284,118 @@
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">The Sharing Platter</span><span class="dish-price">27€</span></div>
-        <p class="dish-desc-en">Tenders, wings, nuggets &amp; Belgian fries with sauce.</p>
-        <p class="dish-desc-fr">Tenders, wings, nuggets &amp; frites Belges avec sauce.</p>
+        <p class="dish-desc-en" lang="en">Tenders, wings, nuggets &amp; Belgian fries with sauce.</p>
+        <p class="dish-desc-fr" lang="fr">Tenders, wings, nuggets &amp; frites Belges avec sauce.</p>
       </div>
     </section>
 
     <!-- SALADS -->
     <section class="category" id="salads">
-      <h2 class="category-title">Salads</h2>
+      <h2 class="category-title" data-i18n="menuPage.salads">Salads</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Caesar Salad</span><span class="dish-price">17€</span></div>
-        <p class="dish-desc-en">Chicken tenders, romaine lettuce, parmesan, cherry tomatoes, eggs, crunchy croutons, caesar dressing.</p>
-        <p class="dish-desc-fr">Tenders de poulet, laitue romaine, parmesan, tomates cerises, œufs, croûtons croustillants, sauce César.</p>
+        <p class="dish-desc-en" lang="en">Chicken tenders, romaine lettuce, parmesan, cherry tomatoes, eggs, crunchy croutons, caesar dressing.</p>
+        <p class="dish-desc-fr" lang="fr">Tenders de poulet, laitue romaine, parmesan, tomates cerises, œufs, croûtons croustillants, sauce César.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Burrata Deluxe 🌱</span><span class="dish-price">17€</span></div>
-        <p class="dish-desc-en">Creamy burrata, cherry tomatoes, dried fruits, walnuts &amp; balsamic vinegar cream.</p>
-        <p class="dish-desc-fr">Burrata crémeuse, tomates cerises, fruits secs, noix &amp; crème de vinaigre balsamique.</p>
+        <p class="dish-desc-en" lang="en">Creamy burrata, cherry tomatoes, dried fruits, walnuts &amp; balsamic vinegar cream.</p>
+        <p class="dish-desc-fr" lang="fr">Burrata crémeuse, tomates cerises, fruits secs, noix &amp; crème de vinaigre balsamique.</p>
       </div>
     </section>
 
     <!-- BEERS -->
     <section class="category" id="beers">
-      <h2 class="category-title">Beers</h2>
+      <h2 class="category-title" data-i18n="menuPage.beers">Beers</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Saison Dupont <span class="beer-abv">6,5%</span></span><span class="dish-price">5,5€</span></div>
-        <p class="dish-desc-en">Belgian season beer, dry, spicy and slightly fruity.</p>
-        <p class="dish-desc-fr">Bière belge de saison, sèche, épicée et légèrement fruitée.</p>
+        <p class="dish-desc-en" lang="en">Belgian season beer, dry, spicy and slightly fruity.</p>
+        <p class="dish-desc-fr" lang="fr">Bière belge de saison, sèche, épicée et légèrement fruitée.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Hoegaarden Blanche <span class="beer-abv">4,9%</span></span><span class="dish-price">5€</span></div>
-        <p class="dish-desc-en">Belgian wheat beer, light, refreshing and citrusy.</p>
-        <p class="dish-desc-fr">Bière blanche belge, légère, rafraîchissante et citronnée.</p>
+        <p class="dish-desc-en" lang="en">Belgian wheat beer, light, refreshing and citrusy.</p>
+        <p class="dish-desc-fr" lang="fr">Bière blanche belge, légère, rafraîchissante et citronnée.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Kriek Cherry Beer <span class="beer-abv">3,5%</span></span><span class="dish-price">5,5€</span></div>
-        <p class="dish-desc-en">Belgian cherry beer, fruity, sweet and slightly tart.</p>
-        <p class="dish-desc-fr">Bière belge aux cerises, fruitée, douce et légèrement acidulée.</p>
+        <p class="dish-desc-en" lang="en">Belgian cherry beer, fruity, sweet and slightly tart.</p>
+        <p class="dish-desc-fr" lang="fr">Bière belge aux cerises, fruitée, douce et légèrement acidulée.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Westmalle Extra <span class="beer-abv">4,8%</span></span><span class="dish-price">5,5€</span></div>
-        <p class="dish-desc-en">Belgian Trappist beer, light, dry and refreshing.</p>
-        <p class="dish-desc-fr">Bière trappiste belge, légère, sèche et rafraîchissante.</p>
+        <p class="dish-desc-en" lang="en">Belgian Trappist beer, light, dry and refreshing.</p>
+        <p class="dish-desc-fr" lang="fr">Bière trappiste belge, légère, sèche et rafraîchissante.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Chimay Blue <span class="beer-abv">9%</span></span><span class="dish-price">6,5€</span></div>
-        <p class="dish-desc-en">Belgian Trappist beer, rich, malty and spicy.</p>
-        <p class="dish-desc-fr">Trappiste belge, riche, maltée et épicée.</p>
+        <p class="dish-desc-en" lang="en">Belgian Trappist beer, rich, malty and spicy.</p>
+        <p class="dish-desc-fr" lang="fr">Trappiste belge, riche, maltée et épicée.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Paix Dieu <span class="beer-abv">10%</span></span><span class="dish-price">8€</span></div>
-        <p class="dish-desc-en">Strong yet smooth ale, brewed only during the full moon.</p>
-        <p class="dish-desc-fr">Bière puissante et douce, brassée uniquement durant les pleines lunes.</p>
+        <p class="dish-desc-en" lang="en">Strong yet smooth ale, brewed only during the full moon.</p>
+        <p class="dish-desc-fr" lang="fr">Bière puissante et douce, brassée uniquement durant les pleines lunes.</p>
       </div>
     </section>
 
     <!-- HOMEMADE REFRESHMENTS -->
     <section class="category" id="refreshments">
-      <h2 class="category-title">Homemade Refreshments</h2>
+      <h2 class="category-title" data-i18n="menuPage.refreshments">Homemade Refreshments</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Iced Tea</span><span class="dish-price">5€</span></div>
-        <p class="dish-desc-en">Fruity &amp; floral Iced Tea.</p>
-        <p class="dish-desc-fr">Thé glacé fruité et floral.</p>
+        <p class="dish-desc-en" lang="en">Fruity &amp; floral Iced Tea.</p>
+        <p class="dish-desc-fr" lang="fr">Thé glacé fruité et floral.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Ginger Lemon</span><span class="dish-price">5€</span></div>
-        <p class="dish-desc-en">Refreshing ginger lemon Iced Tea.</p>
-        <p class="dish-desc-fr">Thé glacé citron gingembre.</p>
+        <p class="dish-desc-en" lang="en">Refreshing ginger lemon Iced Tea.</p>
+        <p class="dish-desc-fr" lang="fr">Thé glacé citron gingembre.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Hibiscus</span><span class="dish-price">5€</span></div>
-        <p class="dish-desc-en">Sweet &amp; tangy lemon Iced Tea.</p>
-        <p class="dish-desc-fr">Thé glacé à l'hibiscus, doux et acidulé.</p>
+        <p class="dish-desc-en" lang="en">Sweet &amp; tangy lemon Iced Tea.</p>
+        <p class="dish-desc-fr" lang="fr">Thé glacé à l'hibiscus, doux et acidulé.</p>
       </div>
     </section>
 
     <!-- MOCKTAILS -->
     <section class="category" id="mocktails">
-      <h2 class="category-title">Mocktails</h2>
+      <h2 class="category-title" data-i18n="menuPage.mocktails">Mocktails</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Virgin Paloma</span><span class="dish-price">9€</span></div>
-        <p class="dish-desc-en">Grapefruit juice, lime, soda.</p>
-        <p class="dish-desc-fr">Jus de pamplemousse, citron vert, soda.</p>
+        <p class="dish-desc-en" lang="en">Grapefruit juice, lime, soda.</p>
+        <p class="dish-desc-fr" lang="fr">Jus de pamplemousse, citron vert, soda.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Pineapple Bloom</span><span class="dish-price">9€</span></div>
-        <p class="dish-desc-en">Pineapple juice, hibiscus touch, soda.</p>
-        <p class="dish-desc-fr">Jus d'ananas, touche d'hibiscus, soda.</p>
+        <p class="dish-desc-en" lang="en">Pineapple juice, hibiscus touch, soda.</p>
+        <p class="dish-desc-fr" lang="fr">Jus d'ananas, touche d'hibiscus, soda.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Pink Grapefruit Fizz</span><span class="dish-price">9€</span></div>
-        <p class="dish-desc-en">Pink grapefruit syrup, lemon, sparkling water.</p>
-        <p class="dish-desc-fr">Sirop de pamplemousse rose, citron, soda.</p>
+        <p class="dish-desc-en" lang="en">Pink grapefruit syrup, lemon, sparkling water.</p>
+        <p class="dish-desc-fr" lang="fr">Sirop de pamplemousse rose, citron, soda.</p>
       </div>
     </section>
 
     <!-- SOFT DRINKS -->
     <section class="category" id="soft-drinks">
-      <h2 class="category-title">Soft Drinks</h2>
+      <h2 class="category-title" data-i18n="menuPage.soft">Soft Drinks</h2>
 
       <div class="dish"><div class="dish-row"><span class="dish-name">Still Water 0,25L</span><span class="dish-price">3,5€</span></div></div>
       <div class="dish"><div class="dish-row"><span class="dish-name">Sparkling Water 0,25L</span><span class="dish-price">3,5€</span></div></div>
@@ -405,63 +406,63 @@
 
     <!-- SPRITZ -->
     <section class="category" id="spritz">
-      <h2 class="category-title">Spritz</h2>
+      <h2 class="category-title" data-i18n="menuPage.spritz">Spritz</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Aperol Spritz</span><span class="dish-price">11€</span></div>
-        <p class="dish-desc-en">Aperol, prosecco, sparkling water, orange slice.</p>
-        <p class="dish-desc-fr">Aperol, prosecco, eau pétillante, tranche d'orange.</p>
+        <p class="dish-desc-en" lang="en">Aperol, prosecco, sparkling water, orange slice.</p>
+        <p class="dish-desc-fr" lang="fr">Aperol, prosecco, eau pétillante, tranche d'orange.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Limoncello Spritz</span><span class="dish-price">11€</span></div>
-        <p class="dish-desc-en">Limoncello, prosecco, sparkling water, lemon zest.</p>
-        <p class="dish-desc-fr">Limoncello, prosecco, eau pétillante, zeste de citron.</p>
+        <p class="dish-desc-en" lang="en">Limoncello, prosecco, sparkling water, lemon zest.</p>
+        <p class="dish-desc-fr" lang="fr">Limoncello, prosecco, eau pétillante, zeste de citron.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Hugo Spritz</span><span class="dish-price">11€</span></div>
-        <p class="dish-desc-en">Prosecco, elderflower syrup, lime, mint.</p>
-        <p class="dish-desc-fr">Prosecco, sirop de fleur de sureau, citron vert, menthe.</p>
+        <p class="dish-desc-en" lang="en">Prosecco, elderflower syrup, lime, mint.</p>
+        <p class="dish-desc-fr" lang="fr">Prosecco, sirop de fleur de sureau, citron vert, menthe.</p>
       </div>
     </section>
 
     <!-- COCKTAILS -->
     <section class="category" id="cocktails">
-      <h2 class="category-title">Cocktails</h2>
+      <h2 class="category-title" data-i18n="menuPage.cocktails">Cocktails</h2>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Paloma</span><span class="dish-price">13€</span></div>
-        <p class="dish-desc-en">Tequila, grapefruit juice, lime, soda.</p>
-        <p class="dish-desc-fr">Tequila, jus de pamplemousse, citron vert, soda.</p>
+        <p class="dish-desc-en" lang="en">Tequila, grapefruit juice, lime, soda.</p>
+        <p class="dish-desc-fr" lang="fr">Tequila, jus de pamplemousse, citron vert, soda.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Gin Tonic</span><span class="dish-price">9€</span></div>
-        <p class="dish-desc-en">Gin Bombay, tonic.</p>
+        <p class="dish-desc-en" lang="en">Gin Bombay, tonic.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Moscow Mule</span><span class="dish-price">13€</span></div>
-        <p class="dish-desc-en">Vodka, ginger, lime, soda.</p>
-        <p class="dish-desc-fr">Vodka, gingembre, citron vert, soda.</p>
+        <p class="dish-desc-en" lang="en">Vodka, ginger, lime, soda.</p>
+        <p class="dish-desc-fr" lang="fr">Vodka, gingembre, citron vert, soda.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Pink Blossom</span><span class="dish-price">13€</span></div>
-        <p class="dish-desc-en">Vodka, hibiscus, tonic.</p>
+        <p class="dish-desc-en" lang="en">Vodka, hibiscus, tonic.</p>
       </div>
 
       <div class="dish">
         <div class="dish-row"><span class="dish-name">Rum Passion</span><span class="dish-price">13€</span></div>
-        <p class="dish-desc-en">Rum, passion fruit, lime, pineapple juice.</p>
-        <p class="dish-desc-fr">Rhum, fruit de la passion, citron vert, jus d'ananas.</p>
+        <p class="dish-desc-en" lang="en">Rum, passion fruit, lime, pineapple juice.</p>
+        <p class="dish-desc-fr" lang="fr">Rhum, fruit de la passion, citron vert, jus d'ananas.</p>
       </div>
     </section>
 
     <!-- WINE -->
     <section class="category" id="wine">
-      <h2 class="category-title">Wine</h2>
+      <h2 class="category-title" data-i18n="menuPage.wine">Wine</h2>
 
       <div class="dish wine-row"><div class="dish-row"><span class="dish-name">Red Syrah</span><span class="dish-price">7,5€ / 39€</span></div></div>
       <div class="dish wine-row"><div class="dish-row"><span class="dish-name">White Chardonnay</span><span class="dish-price">7,5€ / 42€</span></div></div>
@@ -473,14 +474,14 @@
 
 <!-- ============== FOOTER (matches index.html) ============== -->
 <footer>
-  <a href="index.html"><img src="images/fritzguard-logo-gold.png" alt="Fritzguard logo"></a>
-  <a href="index.html">home</a>
-  <a href="index.html#our-story">Our story</a>
-  <a href="menu.html">Menu</a>
-  <a href="index.html#location">location</a>
-  <a href="index.html#collaboration">collaboration</a>
-  <a href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE">Order a table</a>
-  <a href="index.html#jobs">jobs</a>
+  <a href="index.html"><img src="images/optimized/fritzguard-logo-gold-full.webp" alt="Fritzguard logo"></a>
+  <a href="index.html" data-i18n="nav.home">home</a>
+  <a href="index.html#our-story" data-i18n="footer.story">Our story</a>
+  <a href="menu.html" data-i18n="nav.menu">Menu</a>
+  <a href="index.html#location" data-i18n="footer.location">location</a>
+  <a href="index.html#collaboration" data-i18n="nav.contact">collaboration</a>
+  <a href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE" data-i18n="nav.order">Order a table</a>
+  <a href="index.html#jobs" data-i18n="nav.jobs">jobs</a>
   <a href="https://www.instagram.com/fritzguard.brussels">instagram</a>
   <a href="https://www.facebook.com/p/Fritzguard-Brussels-100090719001550/">facebook</a>
   <a href="https://www.tiktok.com/@fritzguard.brussels">tiktok</a>

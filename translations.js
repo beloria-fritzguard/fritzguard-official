@@ -5,6 +5,26 @@
 
 const translations = {
     en: {
+        "footer.story": "Our story",
+        "footer.location": "Location",
+        "location.city": "Brussels",
+        "location.title": "Brussels Belgium",
+        "location.address": "Rue Jules Van Praet 7, 1000 Bruxelles, Belgium 🇧🇪",
+        "nav.brand": "Fritzguard The Order Of Taste",
+        "menuPage.fries": "Loaded Fries",
+        "menuPage.burgers": "Burgers 🐄 or 🌱",
+        "menuPage.sides": "Sides",
+        "menuPage.share": "To Share",
+        "menuPage.salads": "Salads",
+        "menuPage.beers": "Beers",
+        "menuPage.refreshments": "Homemade Refreshments",
+        "menuPage.mocktails": "Mocktails",
+        "menuPage.soft": "Soft Drinks",
+        "menuPage.spritz": "Spritz",
+        "menuPage.cocktails": "Cocktails",
+        "menuPage.wine": "Wine",
+        "menuPage.friesNote": "Our fries are freshly cut from local potatoes and double cooked in 100% beef fat, the true Belgian way.",
+        "menuPage.burgersNote": "Crafted with premium Angus beef or vegetarian cauliflower falafel.",
         // Navigation & Header
         "nav.menu": "Menu",
         "nav.home": "Home",
@@ -81,6 +101,26 @@ const translations = {
     },
 
     nl: {
+        "footer.story": "Ons verhaal",
+        "footer.location": "Locatie",
+        "location.city": "Brussel",
+        "location.title": "Brussel België",
+        "location.address": "Rue Jules Van Praet 7, 1000 Bruxelles, België 🇧🇪",
+        "nav.brand": "Fritzguard De Orde van Smaak",
+        "menuPage.fries": "Loaded frietjes",
+        "menuPage.burgers": "Burgers 🐄 of 🌱",
+        "menuPage.sides": "Bijgerechten",
+        "menuPage.share": "Om te delen",
+        "menuPage.salads": "Salades",
+        "menuPage.beers": "Bieren",
+        "menuPage.refreshments": "Huisgemaakte verfrissingen",
+        "menuPage.mocktails": "Mocktails",
+        "menuPage.soft": "Frisdranken",
+        "menuPage.spritz": "Spritz",
+        "menuPage.cocktails": "Cocktails",
+        "menuPage.wine": "Wijn",
+        "menuPage.friesNote": "Onze frietjes worden vers gesneden van lokale aardappelen en tweemaal gebakken in 100% rundvet, volgens de Belgische traditie.",
+        "menuPage.burgersNote": "Bereid met kwaliteitsvol Angus-rundvlees of vegetarische bloemkoolfalafel.",
         // Navigation & Header
         "nav.menu": "Menu",
         "nav.home": "Startpagina",
@@ -158,6 +198,26 @@ const translations = {
     },
 
     fr: {
+        "footer.story": "Notre histoire",
+        "footer.location": "Emplacement",
+        "location.city": "Bruxelles",
+        "location.title": "Bruxelles Belgique",
+        "location.address": "Rue Jules Van Praet 7, 1000 Bruxelles, Belgique 🇧🇪",
+        "nav.brand": "Fritzguard L’Ordre du Goût",
+        "menuPage.fries": "Frites garnies",
+        "menuPage.burgers": "Burgers 🐄 ou 🌱",
+        "menuPage.sides": "Accompagnements",
+        "menuPage.share": "À partager",
+        "menuPage.salads": "Salades",
+        "menuPage.beers": "Bières",
+        "menuPage.refreshments": "Rafraîchissements maison",
+        "menuPage.mocktails": "Mocktails",
+        "menuPage.soft": "Boissons sans alcool",
+        "menuPage.spritz": "Spritz",
+        "menuPage.cocktails": "Cocktails",
+        "menuPage.wine": "Vins",
+        "menuPage.friesNote": "Nos frites sont fraîchement coupées à partir de pommes de terre locales et cuites deux fois dans de la graisse de bœuf à 100 %, selon la tradition belge.",
+        "menuPage.burgersNote": "Préparés avec du bœuf Angus de qualité ou du falafel végétarien de chou-fleur.",
         // Navigation & Header
         "nav.menu": "Menu",
         "nav.home": "Accueil",
@@ -180,14 +240,14 @@ const translations = {
         "story.title": "Le Meilleur de la Belgique",
         "story.founding": "Fondée en 2022",
         "story.location": "au cœur de Bruxelles, face à la Bourse, Fritzguard Bruxelles est un projet passionnel familial.",
-        "story.concept": "Nous avons imaginé une cuisine belge 🇧🇪 réinventée construite autour d'un concept unique : des frites chargées garnie de grands classiques belges",
+        "story.concept": "Nous avons imaginé une cuisine belge 🇧🇪 réinventée construite autour d'un concept unique : des frites garnies de grands classiques belges",
         "story.concept_end": "réinterprétés avec précision et créativité.",
         "story.recipes": "Vol-au-vent, joues de bœuf, boulettes à la liégeoise, moules-frites… et bien d'autres : chaque recette a été créée, testée et perfectionnée pendant près de deux ans, aux côtés de chefs expérimentés.",
         "story.burgers": "Notre menu propose également des burgers premium à base de bœuf Angus de qualité et de poulet, ainsi que des alternatives végétariennes comme nos burgers au chou-fleur, pour satisfaire tous les palais.",
         "story.quality": "Chez Fritzguard, tout est fait maison, sans produits surgelés, en utilisant uniquement des ingrédients frais, locaux et 100% belges 🇧🇪.",
         "story.design": "Conçu en collaboration avec des designers et architectes renommés, le projet combine authenticité, modernité et artisanat.",
         "story.today": "Aujourd'hui, Fritzguard est devenu une adresse incontournable de Bruxelles, avec l'ambition de grandir sans jamais trahir son ADN : la qualité avant tout.",
-        "story.content": "Fondée en 2022, au cœur de Bruxelles, face à la Bourse, Fritzguard Bruxelles est un projet passionnel familial.<br><br>Nous avons imaginé une cuisine belge 🇧🇪 réinventée construite autour d'un concept unique : des frites chargées garnie de grands classiques belges, réinterprétés avec précision et créativité.<br><br>Vol-au-vent, joues de bœuf, boulettes à la liégeoise, moules-frites… et bien d'autres : chaque recette a été créée, testée et perfectionnée pendant près de deux ans, aux côtés de chefs expérimentés.<br><br>Notre menu propose également des burgers premium à base de bœuf Angus de qualité et de poulet, ainsi que des alternatives végétariennes comme nos burgers au chou-fleur, pour satisfaire tous les palais.<br><br>Chez Fritzguard, tout est fait maison, sans produits surgelés, en utilisant uniquement des ingrédients frais, locaux et 100% belges 🇧🇪.<br><br>Conçu en collaboration avec des designers et architectes renommés, le projet combine authenticité, modernité et artisanat.<br><br>Aujourd'hui, Fritzguard est devenu une adresse incontournable de Bruxelles, avec l'ambition de grandir sans jamais trahir son ADN : la qualité avant tout.",
+        "story.content": "Fondée en 2022, au cœur de Bruxelles, face à la Bourse, Fritzguard Bruxelles est un projet passionnel familial.<br><br>Nous avons imaginé une cuisine belge 🇧🇪 réinventée construite autour d'un concept unique : des frites garnies de grands classiques belges, réinterprétés avec précision et créativité.<br><br>Vol-au-vent, joues de bœuf, boulettes à la liégeoise, moules-frites… et bien d'autres : chaque recette a été créée, testée et perfectionnée pendant près de deux ans, aux côtés de chefs expérimentés.<br><br>Notre menu propose également des burgers premium à base de bœuf Angus de qualité et de poulet, ainsi que des alternatives végétariennes comme nos burgers au chou-fleur, pour satisfaire tous les palais.<br><br>Chez Fritzguard, tout est fait maison, sans produits surgelés, en utilisant uniquement des ingrédients frais, locaux et 100% belges 🇧🇪.<br><br>Conçu en collaboration avec des designers et architectes renommés, le projet combine authenticité, modernité et artisanat.<br><br>Aujourd'hui, Fritzguard est devenu une adresse incontournable de Bruxelles, avec l'ambition de grandir sans jamais trahir son ADN : la qualité avant tout.",
 
         // Menu Section
         "menu.label": "Menu",
@@ -200,11 +260,11 @@ const translations = {
         "jobs.title": "Rejoignez Notre Équipe",
         "jobs.paragraph1": "Nous recherchons toujours des individus passionnés qui partagent notre engagement envers l'excellence et la qualité. Que vous soyez chef, personnel de cuisine, serveur ou membre de notre équipe, nous croyons en la création d'un environnement où chacun peut s'épanouir.",
         "jobs.paragraph2": "Chez Fritzguard, nous ne servons pas que des frites—nous servons une expérience. Rejoignez-nous et faites partie d'une équipe dévouée à perfectionner chaque détail, de l'approvisionnement des plus beaux ingrédients belges 🇧🇪 à la prestation d'un service exceptionnel à nos clients.",
-        "jobs.interested": "Intéressé par rejoindre notre équipe ?",
-        "jobs.contact": "Nous aimerions avoir de vos nouvelles ! N'hésitez pas à nous contacter à",
+        "jobs.interested": "Envie de rejoindre notre équipe ?",
+        "jobs.contact": "Nous aimerions avoir de vos nouvelles ! N'hésitez pas à nous contacter au",
         "jobs.phone": "+32 2 331 00 29",
         "jobs.or": "ou",
-        "jobs.sendInquiry": "envoyer votre demande à",
+        "jobs.sendInquiry": "à envoyer votre demande à",
         "jobs.email": "beloria.contact@gmail.com",
         "jobs.closing": "Créons quelque chose d'exceptionnel ensemble !",
 
@@ -275,7 +335,8 @@ class TranslationManager {
             this.currentLanguage = language;
             localStorage.setItem('fritzguard_language', language);
             console.log('Translation: Language changed to:', language);
-            this.updatePageTranslations();
+            // Rebuild the page from unsplit translated text, retaining the same URL.
+            window.location.reload();
             return true;
         }
         console.warn('Translation: Language not supported:', language);
@@ -303,6 +364,7 @@ class TranslationManager {
      * This function traverses the DOM and updates all elements with translation keys
      */
     updatePageTranslations() {
+        document.documentElement.lang = this.currentLanguage;
         const elements = document.querySelectorAll('[data-i18n]');
 
         elements.forEach((element) => {
