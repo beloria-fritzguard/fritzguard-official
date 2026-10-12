@@ -5,6 +5,7 @@
 
 const translations = {
     en: {
+        "location.hours": "Opening hours<br>Monday–Saturday: 12:00–23:00<br>Sunday: 12:00–22:00",
         "footer.story": "Our story",
         "footer.location": "Location",
         "location.city": "Brussels",
@@ -101,6 +102,7 @@ const translations = {
     },
 
     nl: {
+        "location.hours": "Openingstijden<br>Maandag–zaterdag: 12:00–23:00<br>Zondag: 12:00–22:00",
         "footer.story": "Ons verhaal",
         "footer.location": "Locatie",
         "location.city": "Brussel",
@@ -198,6 +200,7 @@ const translations = {
     },
 
     fr: {
+        "location.hours": "Horaires<br>Lundi–samedi : 12h–23h<br>Dimanche : 12h–22h",
         "footer.story": "Notre histoire",
         "footer.location": "Emplacement",
         "location.city": "Bruxelles",
