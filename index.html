@@ -224,6 +224,55 @@
       outline-offset: 2px;
     }
   </style>
+  <style id="fritzguard-subtle-refinement">
+/* Approved subtle refinement: existing full-screen video and animation hooks retained. */
+.section_hero .hero_headline-wrapper {
+  color: #fcdd94;
+  background: none !important;
+  -webkit-text-fill-color: #fcdd94 !important;
+  filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.35)) !important;
+  text-shadow: none !important;
+  row-gap: 1.7em;
+}
+.section_hero .hero_headline-wrapper > .heading-xxxlarge {
+  font-size: 7em;
+  line-height: 0.95;
+}
+.section_hero .hero_established {
+  margin-top: 0.5rem;
+  font-size: clamp(12px, 1.25vw, 18px) !important;
+  line-height: 1.2;
+  padding-right: 0.15em !important;
+}
+.section_hero .hero_background-video #overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.nav_menu-shortcut {
+  display: none;
+  color: #fcdd94;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 0.4rem;
+  margin-right: 1.3rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.nav_menu-shortcut:hover { text-decoration: underline; text-underline-offset: 0.25em; }
+.nav_menu-shortcut:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+@media screen and (min-width: 992px) {
+  .nav_menu-shortcut { display: inline-flex; align-items: center; }
+}
+@media screen and (max-width: 767px) {
+  .section_hero .hero_headline-wrapper { row-gap: 0.55em; }
+  .section_hero .hero_headline-wrapper > .heading-xxxlarge {
+    font-size: 3.65em;
+    line-height: 1;
+  }
+  .section_hero .hero_established { margin-top: 0.4rem; }
+}
+  </style>
 </head>
 
 <body data-theme-nav="light" data-bg-nav="light" class="body-dark">
@@ -394,6 +443,7 @@
             </div>
           </a>
           <div class="nav_right">
+            <a href="menu.html" class="nav_menu-shortcut" data-i18n="nav.menu">Menu</a>
             <div class="button_wrapper">
               <div class="hide-mobile-landscape">
                 <a data-text-fade-reveal="" data-wf--button-dark--variant="bg-black"
@@ -569,7 +619,7 @@
                     </div>
                     <div class="heading-xxxlarge">
                       <span data-i18n="hero.subtitle">luxury frites</span>
-                      <div
+                      <div class="hero_established"
                         style="display: flex; justify-content: flex-end; font-size: 20px; gap: 5px; padding-right: 20px;">
                         <div data-i18n="hero.est">Est.</div>
                         <div data-i18n="hero.year">2022</div>
