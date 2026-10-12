@@ -477,6 +477,16 @@ if (document.readyState === 'loading') {
  * Connects the existing language switcher buttons to the translation system
  */
 function setupLanguageSwitcher() {
+    // Both controls use the same dictionary, saved locale and reload lifecycle.
+    const floatingSelector = document.getElementById('floating-language');
+    if (floatingSelector) {
+        floatingSelector.value = window.i18n.getLanguage();
+        const labels = { en: 'Language', fr: 'Langue', nl: 'Taal' };
+        floatingSelector.setAttribute('aria-label', labels[floatingSelector.value]);
+        floatingSelector.addEventListener('change', function () {
+            window.i18n.setLanguage(this.value);
+        });
+    }
     const langSwitchers = document.querySelectorAll('.lang-switcher_wrapper [data-lang]');
     console.log('Found language switcher buttons:', langSwitchers.length);
 

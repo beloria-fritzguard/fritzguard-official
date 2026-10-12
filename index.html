@@ -201,8 +201,29 @@
       fill: currentColor;
     }
   </style>
-  <script async="" src="https://cdn.weglot.com/weglot.min.js?api_key=wg_0f3c27fbdf08120ee54e7619fbd8b8550"
-    type="text/javascript"></script>
+  <style>
+    .floating-language-selector {
+      position: fixed;
+      left: 20px;
+      bottom: 7px;
+      z-index: 2147483647;
+    }
+    .floating-language-selector select {
+      min-width: 60px;
+      margin: 0;
+      padding: 2px 10px;
+      border: 0;
+      border-radius: 0;
+      background-color: #fff;
+      color: #000;
+      font: 500 13px/23px Gotham, Arial, sans-serif;
+      cursor: pointer;
+    }
+    .floating-language-selector select:focus-visible {
+      outline: 2px solid #fcdd94;
+      outline-offset: 2px;
+    }
+  </style>
 </head>
 
 <body data-theme-nav="light" data-bg-nav="light" class="body-dark">
@@ -1325,7 +1346,6 @@
     });
   </script>
 
-  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.36/dist/lenis.min.js"></script>
   <script>
@@ -2057,6 +2077,13 @@
       setTimeout(() => observer.disconnect(), 10000);
     })();
   </script>
+  <div class="floating-language-selector">
+    <select id="floating-language" aria-label="Language">
+      <option value="en" lang="en">EN</option>
+      <option value="nl" lang="nl">NL</option>
+      <option value="fr" lang="fr">FR</option>
+    </select>
+  </div>
 </body>
 
 </html>
