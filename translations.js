@@ -34,7 +34,13 @@ const translations = {
         "nav.jobs": "Jobs",
         "nav.locations": "Locations",
         "nav.contact": "Collaboration",
-        "nav.order": "Order A Table",
+        "nav.order": "Book a Table",
+        "booking.intro": "Loaded fries, burgers & Belgian beers — near the Bourse, Brussels.",
+        "booking.location": "Near the Bourse · Rue Jules Van Praet 7, Brussels",
+        "booking.menu": "View the menu",
+        "booking.navigation": "Explore Fritzguard",
+        "booking.language": "Language",
+        "menuPage.pageTitle": "Fritzguard Menu",
         "nav.logo_sub_title": "The Order Of Taste",
 
         // Hero Section
@@ -131,7 +137,13 @@ const translations = {
         "nav.jobs": "Vacatures",
         "nav.locations": "Locaties",
         "nav.contact": "Samenwerking",
-        "nav.order": "Reserveer Een Tafel",
+        "nav.order": "Reserveer een tafel",
+        "booking.intro": "Loaded fries, burgers & Belgische bieren — bij de Beurs in Brussel.",
+        "booking.location": "Bij de Beurs · Jules Van Praetstraat 7, Brussel",
+        "booking.menu": "Bekijk het menu",
+        "booking.navigation": "Ontdek Fritzguard",
+        "booking.language": "Taal",
+        "menuPage.pageTitle": "Menu van Fritzguard",
         "nav.logo_sub_title": "De Orde van Smaak",
 
 
@@ -230,6 +242,12 @@ const translations = {
         "nav.locations": "Emplacement",
         "nav.contact": "Collaboration",
         "nav.order": "Réserver une table",
+        "booking.intro": "Frites garnies, burgers et bières belges — près de la Bourse à Bruxelles.",
+        "booking.location": "Près de la Bourse · Rue Jules Van Praet 7, Bruxelles",
+        "booking.menu": "Voir le menu",
+        "booking.navigation": "Découvrir Fritzguard",
+        "booking.language": "Langue",
+        "menuPage.pageTitle": "La carte de Fritzguard",
         "nav.logo_sub_title": "L'Ordre du Goût",
 
         // Hero Section

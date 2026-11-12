@@ -4,15 +4,21 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Fritzguard - The Order Of Taste</title>
-  <meta content="Fritzguard - Premium Frites Experience" property="og:title" />
-  <meta name="description" content="Fritzguard - Authentic Belgian Restaurant 🇧🇪🥔">
-  <meta property="og:title" content="Fritzguard - The Order Of Taste" />
-  <meta property="og:description" content="Fritzguard - Authentic Belgian Restaurant 🇧🇪🥔">
-  <meta property="og:image"
-    content="https://dbucha-organization.github.io/fritzguard-v3/images/fritzguard-url-image.png" />
+<title>Fritzguard Brussels | Loaded Fries, Burgers &amp; Belgian Beer</title>
+<meta name="description" content="Loaded fries, burgers and Belgian beers near the Bourse in central Brussels. Explore the menu and book a table at Fritzguard.">
+<link rel="canonical" href="https://www.fritzguard-be.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fritzguard Brussels">
+<meta property="og:title" content="Fritzguard Brussels | Loaded Fries, Burgers &amp; Belgian Beer">
+<meta property="og:description" content="Loaded fries, burgers and Belgian beers near the Bourse in central Brussels. Explore the menu and book a table at Fritzguard.">
+<meta property="og:url" content="https://www.fritzguard-be.com/">
+<meta property="og:image" content="https://www.fritzguard-be.com/images/optimized/table-burgers-fries-roses-960.webp">
+<meta property="og:image:alt" content="Burgers and loaded fries at Fritzguard Brussels">
+<meta name="twitter:card" content="summary_large_image">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="booking-improvements.css">
+  <link rel="preload" as="image" href="images/optimized/table-burgers-fries-roses-960.webp">
   <link rel="icon" href="favicon.ico" sizes="any">
   <script src="translations.js" type="text/javascript"></script>
   <script src="https://use.typekit.net/zgp3gjs.js" type="text/javascript"></script>
@@ -281,6 +287,35 @@
   .section_hero .hero_established { margin-top: 0.4rem; }
 }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://www.fritzguard-be.com/#restaurant",
+  "name": "Fritzguard Brussels",
+  "url": "https://www.fritzguard-be.com/",
+  "image": "https://www.fritzguard-be.com/images/optimized/table-burgers-fries-roses-960.webp",
+  "telephone": "+3223310029",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue Jules Van Praet 7",
+    "postalCode": "1000",
+    "addressLocality": "Bruxelles",
+    "addressCountry": "BE"
+  },
+  "servesCuisine": [
+    "Belgian",
+    "Burgers",
+    "Loaded fries"
+  ],
+  "hasMenu": "https://www.fritzguard-be.com/menu.html",
+  "acceptsReservations": "https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE",
+  "sameAs": [
+    "https://www.instagram.com/fritzguard.brussels",
+    "https://www.facebook.com/p/Fritzguard-Brussels-100090719001550/"
+  ]
+}
+</script>
 </head>
 
 <body data-theme-nav="light" data-bg-nav="light" class="body-dark">
@@ -461,7 +496,7 @@
                   data-google-maps-reserve>
                   <div class="button_text-wrapper">
                     <div data-i18n="nav.order" class="button_text w-variant-cdc199fa-c6fa-81a9-9d6a-faca36e56f68">
-                      Order A Table
+                      Book a Table
                     </div>
                   </div>
                 </a>
@@ -508,7 +543,7 @@
               data-google-maps-reserve>
               <div class="button_text-wrapper">
                 <div class="button_text w-variant-cdc199fa-c6fa-81a9-9d6a-faca36e56f68" data-i18n="nav.order" style="text-align: center;">
-                  Order A Table
+                  Book a Table
                 </div>
               </div>
             </a>
@@ -604,16 +639,13 @@
             <div id="overlay"></div>
 
             <!-- Desktop Video -->
-            <video id="homeHeroDesktop" class="home-hero_desktop hero-video" autoplay="" muted="" loop=""
-              playsinline="">
-              <source src="./videos/firstVideo.mp4" type="video/mp4" />
-              Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.
+            <video id="homeHeroDesktop" class="home-hero_desktop hero-video" muted loop playsinline preload="none" poster="images/optimized/table-burgers-fries-roses-960.webp" data-video-src="./videos/firstVideo.mp4" aria-hidden="true">
+              <span data-i18n="video.noSupport">Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.</span>
             </video>
 
             <!-- Mobile Video (hidden on desktop, shown on mobile) -->
-            <video id="homeHeroMobile" class="home-hero_mobile hero-video" autoplay="" muted="" loop="" playsinline="">
-              <source src="./videos/secondVideo.mp4" type="video/mp4" />
-              Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.
+            <video id="homeHeroMobile" class="home-hero_mobile hero-video" muted loop playsinline preload="none" poster="images/optimized/table-burgers-fries-roses-960.webp" data-video-src="./videos/secondVideo.mp4" aria-hidden="true">
+              <span data-i18n="video.noSupport">Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.</span>
             </video>
           </div>
           <section class="padding-global padding-section-medium">
@@ -634,6 +666,15 @@
                       </div>
                     </div>
                   </h1>
+
+                  <div class="reservation-intro">
+                    <p data-i18n="booking.intro">Loaded fries, burgers &amp; Belgian beers — near the Bourse, Brussels.</p>
+                    <div class="reservation-actions">
+                      <a class="reservation-link" href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE" data-google-maps-reserve data-i18n="nav.order">Book a Table</a>
+                      <a class="reservation-link reservation-link--secondary" href="menu.html" data-i18n="booking.menu">View the menu</a>
+                    </div>
+                  </div>
+
 
                 </div>
               </div>
@@ -979,9 +1020,9 @@
         <div class="food-drink_modal">
           <div class="grid-global">
             <div id="w-node-_24489688-3d6c-007a-8e34-64af1372e77f-f80ede28" class="video_embed w-embed">
-              <video class="promo-video" width="100%" height="100%" controls="">
+              <video class="promo-video" width="100%" height="100%" controls preload="none">
                 <source src="https://r2.vidzflow.com/v/tW5DHadK3x_1080p_1754381752.mp4" type="video/mp4" />
-                Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.
+                <span data-i18n="video.noSupport">Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse.</span>
               </video>
             </div>
           </div>
@@ -1059,7 +1100,7 @@
                     href="https://www.google.com/maps/reserve/v/dine/c/KUP-glquwqE"
                     class="button-link_wrapper w-inline-block" data-google-maps-reserve>
                     <div class="button_text-wrapper">
-                      <div class="button_text" data-i18n="nav.order">Order a table</div>
+                      <div class="button_text" data-i18n="nav.order">Book a Table</div>
                     </div>
                   </a>
                   <a data-faded-link="" href="#jobs" class="button-link_wrapper w-inline-block">
@@ -2145,6 +2186,7 @@
       <option value="fr" lang="fr">FR</option>
     </select>
   </div>
+<script src="hero-media.js" defer></script>
 </body>
 
 </html>
