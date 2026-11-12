@@ -98,7 +98,7 @@ const translations = {
         "footer.followUs": "Follow Us",
 
         // Accessibility
-        "video.noSupport": "Your browser does not support the video tag."
+        "video.noSupport": "Fritzguard Brussels: loaded fries, burgers and Belgian beers near the Bourse."
     },
 
     nl: {
@@ -196,7 +196,7 @@ const translations = {
         "footer.followUs": "Volg Ons",
 
         // Accessibility
-        "video.noSupport": "Je browser ondersteunt de videotag niet."
+        "video.noSupport": "Fritzguard Brussel: loaded fries, burgers en Belgische bieren bij de Beurs."
     },
 
     fr: {
@@ -293,7 +293,7 @@ const translations = {
         "footer.followUs": "Suivez-nous",
 
         // Accessibility
-        "video.noSupport": "Votre navigateur ne supporte pas la balise vidéo."
+        "video.noSupport": "Fritzguard Bruxelles : frites garnies, burgers et bières belges près de la Bourse."
     }
 };
 
