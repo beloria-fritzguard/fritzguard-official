@@ -1075,12 +1075,13 @@
       data-open="2000"></div>
   </div>
 
-  <script>
+  <script data-cookieconsent="ignore">
     (function (d, s, id) {
       const el = d.getElementsByTagName(s)[0];
       if (d.getElementById(id) || el.parentNode == null) { return; }
       var js = d.createElement(s);
       js.id = id;
+      js.setAttribute('data-cookieconsent', 'ignore');
       js.async = true;
       js.src = 'https://sdk.zenchef.com/v1/sdk.min.js';
       el.parentNode.insertBefore(js, el);
@@ -1946,7 +1947,7 @@
       });
     });
   </script>
-  <script>
+  <script data-cookieconsent="ignore">
     gsap.registerPlugin(ScrollTrigger);
     gsap.registerPlugin(SplitText);
 
