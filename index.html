@@ -4,6 +4,10 @@
 
 <head>
   <meta charset="utf-8" />
+  <style>
+    /* Keep the booking widget below the consent dialog on small screens. */
+    iframe[src^="https://bookings.zenchef.com/"] { z-index: 2147483620 !important; }
+  </style>
   <!-- Consent defaults must precede Cookiebot and Google Tag Manager. -->
   <script data-cookieconsent="ignore">
     (function () {
