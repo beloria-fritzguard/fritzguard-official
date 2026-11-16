@@ -4,6 +4,38 @@
 
 <head>
   <meta charset="utf-8" />
+  <!-- Consent defaults must precede Cookiebot and Google Tag Manager. -->
+  <script data-cookieconsent="ignore">
+    (function () {
+      var layer = window.dataLayer = window.dataLayer || [];
+      function queue() { layer.push(arguments); }
+      queue('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'denied',
+        personalization_storage: 'denied',
+        security_storage: 'granted',
+        wait_for_update: 500
+      });
+      // Prevent only the obsolete Cookiebot template from injecting a second banner.
+      queue('policy', 'inject_script', function (containerId, permissionId, data) {
+        if (containerId !== 'GTM-P2S2Q8P' || !data || !data.url) return true;
+        try {
+          var url = new URL(data.url, window.location.href);
+          return !(url.hostname === 'consent.cookiebot.com' &&
+            url.pathname === '/uc.js' &&
+            url.searchParams.get('cbid') === '7c48e2ae-77fe-4e49-888f-e1b024ba8df5');
+        } catch (e) {
+          return true;
+        }
+      });
+    })();
+  </script>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js"
+    data-cbid="0bc1c887-7710-441e-846e-877bdfacb2ad" data-blockingmode="auto"
+    type="text/javascript"></script>
 <title>Fritzguard Brussels | Loaded Fries, Burgers &amp; Belgian Beer</title>
 <meta name="description" content="Loaded fries, burgers and Belgian beers near the Bourse in central Brussels. Explore the menu and book a table at Fritzguard.">
 <link rel="canonical" href="https://www.fritzguard-be.com/">
@@ -145,9 +177,6 @@
       letter-spacing: -0.01em;
     }
   </style>
-
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c8188f85-4419-4ff0-b285-4097f032a4c9"
-    type="text/javascript"></script>
 
   <!-- Google Tag Manager -->
 
