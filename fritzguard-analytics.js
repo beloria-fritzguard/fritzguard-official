@@ -62,6 +62,7 @@
     window.addEventListener(name, syncConsent);
   });
   window.addEventListener('zc-widget-opened', function () { track('reservation_widget_open', 'zenchef'); });
+  window.addEventListener('zc-widget-calendar-opened', function () { track('reservation_calendar_open', 'zenchef'); });
   window.addEventListener('zc-widget-booking-completed', function () {
     // Only the SDK's completed-booking callback counts as a confirmed reservation.
     // Do not forward event.detail: it may contain customer or booking information.
