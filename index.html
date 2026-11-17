@@ -1458,6 +1458,8 @@
           $(this).attr("href").indexOf("#") === -1 &&
           $(this).attr("target") !== "_blank"
         ) {
+          // Follow the link normally when the transition element is absent.
+          if (!document.querySelector(".transition")) return;
           e.preventDefault();
           let destination = $(this).attr("href");
           gsap.set(".transition", { display: "flex" });
